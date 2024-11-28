@@ -26,4 +26,5 @@ mongoose.connect(process.env.DB_URI, { useNewUrlParser: true, useUnifiedTopology
 })
 .catch(err => {
     console.error('Failed to connect MongoDB:', err)
+    
 });
